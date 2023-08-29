@@ -1,0 +1,56 @@
+/* AdminControls.css */
+.admin-controls-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: large;
+  }
+  
+  .admin-controls-header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .admin-controls-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+  }
+  
+  .admin-controls-table th,
+  .admin-controls-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .admin-controls-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .admin-controls-table td button {
+    padding: 6px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .admin-controls-table td button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 600px) {
+    .admin-controls-table th,
+    .admin-controls-table td {
+      padding: 8px;
+      font-size: 14px;
+    }
+  
+    .admin-controls-table td button {
+      padding: 4px 8px;
+    }
+  }
+  

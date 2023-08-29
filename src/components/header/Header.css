@@ -1,0 +1,13 @@
+.logo {
+    height: 130px;
+    margin: 0 10px;
+  }
+  .name{
+    margin-right: -20px;
+  }
+.logout{
+    /* border: 2px solid black; */
+    height: 40px;
+    margin-right: 30px;
+    border-radius: 15px;
+}

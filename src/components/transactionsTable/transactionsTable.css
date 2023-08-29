@@ -1,0 +1,95 @@
+/* TransactionsTable.css */
+
+/* Apply some general styling to the table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    color: #333; /* Darken the font color */
+  }
+  
+  /* Style for table headers */
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Style for table cells */
+  td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Add zebra-striping to table rows */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr.incoming {
+    background-color: #eafce8; /* Green background for incoming transactions */
+  }
+  
+  tr.outgoing {
+    background-color: #fce8e8; /* Red background for outgoing transactions */
+  }
+  /* TransactionsTable.css */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagination button:hover {
+    background-color: #0056b3;
+  }
+  
+  .pagination span {
+    font-size: 18px;
+    margin: 0 5px;
+    color: #333;
+  }
+  
+  .pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  /* transactionsTable.css */
+
+.download-button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-button:hover {
+    background-color: #0056b3;
+  }
+  .incoming-row {
+    background-color: red;
+    color: white;
+  }
+  
+  .outgoing-row {
+    background-color: green;
+    color: white;
+  }
+  

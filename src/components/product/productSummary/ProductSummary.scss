@@ -1,0 +1,83 @@
+.product-summary {
+  width: 100%;
+  .info-summary {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.card {
+  border: 1px solid #ccc;
+  // border-bottom: 3px solid var(--light-blue);
+  padding: 5px;
+  background-color: #f5f6fa;
+}
+
+.card1 {
+  background-color: #b624ff;
+}
+.card2 {
+  background-color: #32963d;
+}
+.card3 {
+  background-color: #c41849;
+}
+.card4 {
+  background-color: #03a5fc;
+}
+.button {
+  width: 50px;
+  height: 5rem;
+  background-color: #03a5fc;
+  transform: translateY(0);
+  transition: all 0.3s;
+
+  // background-color: green;
+
+  &:hover {
+    cursor: pointer;
+    // border: 3px solid #fff;
+    transform: translateY(-5px);
+  }
+
+  .info-text > * {
+    color: black;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .info-box {
+    max-width: 100%;
+  }
+}
+
+.tooltip-btn {
+  position: relative;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.tooltip-btn::after {
+  content: "Download Out Of Stock Products List";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 4px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s, visibility 0.2s;
+}
+
+.tooltip-btn:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+
