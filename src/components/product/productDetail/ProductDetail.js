@@ -234,20 +234,8 @@ const ProductDetail = () => {
                 </code>
               </div>
             )}
-          </Card>
+          </Card> 
         </div>
-        <div className='bar-chart'>
-          <h2>Transactions in the Last 2 Days (Bar Chart)</h2>
-          <BarChart width={600} height={300} data={transactionData}>
-            <CartesianGrid strokeDasharray='3 3' />
-            <XAxis dataKey='date' />
-            <YAxis />
-            <Tooltip />
-            <Bar dataKey='count' fill='#8884d8' />
-          </BarChart>
-        </div>
-      </div>
-      <div className='product-container'>
         <div className='transactions'>
           <h2>Transactions</h2>
           <div>
@@ -309,7 +297,9 @@ const ProductDetail = () => {
             </button>
           </div>
         </div>
-
+      </div>
+      <div className='product-container'>
+        
         <div className='pie-chart'>
           <h2>Transaction Type Distribution (Pie Chart)</h2>
           <PieChart width={400} height={300}>
@@ -333,6 +323,16 @@ const ProductDetail = () => {
             <Tooltip />
           </PieChart>
           {/* </div> */}
+        </div>
+        <div className='bar-chart'>
+          <h2>Transactions in the Last 2 Days (Bar Chart)</h2>
+          <BarChart width={600} height={300} data={transactionData}>
+            <CartesianGrid strokeDasharray='3 3' />
+            <XAxis dataKey='date' />
+            <YAxis />
+            <Tooltip />
+            <Bar dataKey='count' fill='#8884d8' />
+          </BarChart>
         </div>
       </div>
     </div>
