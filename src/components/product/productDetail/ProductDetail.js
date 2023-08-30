@@ -248,7 +248,7 @@ const ProductDetail = () => {
         </div>
       </div>
       <div className='product-container'>
-        <div>
+        <div className='transactions'>
           <h2>Transactions</h2>
           <div>
           <button className="download-button" onClick={downloadExcel}>Download Excel</button>
@@ -309,7 +309,6 @@ const ProductDetail = () => {
             </button>
           </div>
         </div>
-        {/* <div className='charts-container'> */}
 
         <div className='pie-chart'>
           <h2>Transaction Type Distribution (Pie Chart)</h2>
@@ -335,8 +334,6 @@ const ProductDetail = () => {
           </PieChart>
           {/* </div> */}
         </div>
-        {/* Add similar code for the pie chart */}
-        {/* Add similar code for the pie chart */}
       </div>
     </div>
   );
