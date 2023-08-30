@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './Home.scss';
 import heroImg from '../../assets/inv-img.png';
 import { ShowOnLogin, ShowOnLogout } from '../../components/protect/HiddenLink';
-import img from './iocl-image.png';
+import img from './logo.gif';
 import img1 from './indane.png';
 import Login from '../auth/Login.js';
 import Register from '../auth/Register.js';
@@ -13,12 +13,12 @@ const Home = () => {
     <div className='home'>
       <div className='box'>
         <img
-          src='https://iocl.com/assets/images/logo.gif'
+          src={img}
           alt=''
           className='logo'
         />
         <p className='description'>
-          INVENTORY MANAGEMENT SYSTEM<br></br> &nbsp; &nbsp; @ KANPUR BOTTLING PLANT
+          INVENTORY MANAGEMENT SYSTEM<br></br>  @ KANPUR BOTTLING PLANT
           
         </p>
         <img src={img1} alt='' className='image1' />
