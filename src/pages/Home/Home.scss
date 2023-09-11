@@ -84,31 +84,46 @@
   justify-content: space-between; /* Distribute items along the horizontal axis with space between them */
 }
 
-.logo {
-  height: 130px;
-  margin: 0 10px;
+.logob {
+  width: auto;
+  height: 100px;
+  margin-bottom: 50px;
+  align-self: flex-start;
+  // top: -50px;
 }
 
 .description {
-  height: 130px;
-  margin: 0 10px;
-  flex-grow: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  font-size: 40px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 38px; /* Larger font size */
   font-weight: bold;
-  // background-color: hsl(187, 63%, 92%);
-  color: rgb(5, 5, 73); /* Set text color to contrast with the background */
-  border-radius: 10px;
-  // box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #333; /* Text color */
+  text-align: center;
+  
+  // margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners */
+  // background-color: #f0f0f0; /* Background color */
+  // box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow for a subtle lift */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+
+  /* Gradient background */
+  // background: linear-gradient(to bottom, #ff6b6b, #ffc0cb);
+
+  /* Text shadow for a soft glow */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.description:hover {
+  background-color: #aacef7; /* Change background color on hover */
+  transform: scale(1.03); /* Slight scale effect on hover */
 }
 
 
+
+
 .image1 {
-   height: 100px;
+  height: 100px;
   margin-right: 50px;
   margin-bottom: 50px;
   align-self: flex-end; /* Align the image to the bottom of the flex container */
 }
+
