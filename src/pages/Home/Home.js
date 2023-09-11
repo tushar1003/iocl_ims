@@ -15,7 +15,7 @@ const Home = () => {
         <img
           src={img}
           alt=''
-          className='logo'
+          className='logob'
         />
         <p className='description'>
           INVENTORY MANAGEMENT SYSTEM<br></br>  @ KANPUR BOTTLING PLANT
