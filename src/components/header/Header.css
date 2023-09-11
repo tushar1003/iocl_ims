@@ -11,3 +11,15 @@
     margin-right: 30px;
     border-radius: 15px;
 }
+.beautiful-heading {
+  font-family: 'Arial', sans-serif; /* Choose an appropriate font-family */
+  font-size: 32px; /* Adjust the font size as needed */
+  color: #333; /* Choose a suitable text color */
+  text-transform: uppercase; /* Convert text to uppercase */
+  letter-spacing: 2px; /* Adjust letter spacing for emphasis */
+}
+
+.management {
+  color: #FF5733; /* Use a different color for the word "MANAGEMENT" */
+  font-weight: bold; /* Make it bold for emphasis */
+}

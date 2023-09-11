@@ -19,13 +19,11 @@ const Header = () => {
   return (
     <div className="--pad header">
       <div className="--flex-between">
-      <img
-          src='https://iocl.com/assets/images/logo.gif'
-          alt=''
-          className='logo'
-        />
+      
         <h2>
-          <span className="--fw-thick">INVENTORY MANAGEMENT SYSTEM </span>
+        <span className="beautiful-heading">
+  INVENTORY <span className="management">MANAGEMENT</span> SYSTEM
+</span>
           {/* <span className="--color-danger">{name}</span> */}
         </h2>
         <h3 className="name">

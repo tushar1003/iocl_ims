@@ -6,7 +6,7 @@ import menu from "../../data/sidebar";
 import SidebarItem from "./SidebarItem";
 import { useNavigate } from "react-router-dom";
 import AdminControls from "../AdminControls/AdminControls";
-
+import logo from './logo.gif'
 const Sidebar = ({ children }) => {
   const [isOpen, setIsOpen] = useState(true);
   const toggle = () => setIsOpen(!isOpen);
@@ -19,6 +19,7 @@ const Sidebar = ({ children }) => {
   return (
     <div className="layout">
       <div className="sidebar" style={{ width: isOpen ? "230px" : "60px" }}>
+      
         <div className="top_section">
           <div
             className="bars"
@@ -26,6 +27,13 @@ const Sidebar = ({ children }) => {
           >
             <HiMenuAlt3 onClick={toggle} />
           </div>
+        </div>
+        <div className="gif-container">
+        <img
+          src={logo}
+          alt=''
+          className='logo'
+        /> 
         </div>
         {menu.map((item, index) => {
           return <SidebarItem key={index} item={item} isOpen={isOpen} />;

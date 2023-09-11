@@ -28,9 +28,15 @@ main {
   background-color: var(--dark-blue);
   height: 70px;
 }
+.gif-container {
+  width: 200px; /* Set the desired width */
+  height: 70px; /* Set the desired height */
+  // overflow: hidden; /* Hide any overflow if the GIF is larger than the container */
+}
+
 .logo {
-  font-size: 30px;
-  color: var(--color-white);
+  width: 100%; /* Make the GIF take up the full width of its container */
+  height: auto; /* Maintain the aspect ratio when resizing */
 }
 .bars {
   display: flex;
