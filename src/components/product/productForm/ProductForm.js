@@ -84,7 +84,7 @@ const ProductForm = ({
   return (
     <div className='add-product'>
       <button className='--btn --btn-primary' onClick={openModal}>
-        Add Product
+        Add/Edit Product
       </button>
       <Modal
         isOpen={modalIsOpen}
