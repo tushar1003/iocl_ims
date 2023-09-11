@@ -30,13 +30,14 @@ main {
 }
 .gif-container {
   width: 200px; /* Set the desired width */
-  height: 70px; /* Set the desired height */
+  // height: 140px; /* Set the desired height */
   // overflow: hidden; /* Hide any overflow if the GIF is larger than the container */
 }
 
-.logo {
-  width: 100%; /* Make the GIF take up the full width of its container */
-  height: auto; /* Maintain the aspect ratio when resizing */
+.logoa {
+  width: 200px;
+  // width: 100%; /* Make the GIF take up the full width of its container */
+  // height: 50%; /* Maintain the aspect ratio when resizing */
 }
 .bars {
   display: flex;
