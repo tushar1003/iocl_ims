@@ -32,7 +32,7 @@ const Sidebar = ({ children }) => {
         <img
           src={logo}
           alt=''
-          className='logo'
+          className='logoa'
         /> 
         </div>
         {menu.map((item, index) => {
