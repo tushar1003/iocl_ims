@@ -82,7 +82,7 @@ const AddProduct = () => {
 
   const handleDownload = () => {
     const downloadLink = document.createElement("a");
-    downloadLink.href = "https://file-sharing-backend-zia1.onrender.com/file/64ed37b76ccf0f3401858986"; // Replace with the actual file path
+    downloadLink.href = "https://docs.google.com/spreadsheets/d/1wvJFxLxC1Bv74j9A-fX6xnwzI0Tab4Gw/edit?usp=sharing&ouid=107506255592970431254&rtpof=true&sd=true"; // Replace with the actual file path
     downloadLink.download = "transactions.xlsx"; // Replace with the desired downloaded file name
     document.body.appendChild(downloadLink);
     downloadLink.click(); 
