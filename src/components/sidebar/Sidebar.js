@@ -19,7 +19,13 @@ const Sidebar = ({ children }) => {
   return (
     <div className="layout">
       <div className="sidebar" style={{ width: isOpen ? "230px" : "60px" }}>
-      
+      <div className="gif-container">
+        <img
+          src={logo}
+          alt=''
+          className='logoa'
+        /> 
+        </div>
         <div className="top_section">
           <div
             className="bars"
@@ -28,13 +34,7 @@ const Sidebar = ({ children }) => {
             <HiMenuAlt3 onClick={toggle} />
           </div>
         </div>
-        <div className="gif-container">
-        <img
-          src={logo}
-          alt=''
-          className='logoa'
-        /> 
-        </div>
+        
         {menu.map((item, index) => {
           return <SidebarItem key={index} item={item} isOpen={isOpen} />;
         })}
