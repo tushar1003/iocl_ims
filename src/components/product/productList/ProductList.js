@@ -103,11 +103,11 @@ const ProductList = ({ products, isLoading,flag }) => {
             <table>
               <thead>
                 <tr>
-                  <th>s/n</th>
+                  <th>S/N</th>
                   <th>Name</th>
                   <th>Category</th>
                   <th>Subcategory</th>
-                  <th>maxQuantity</th>
+                  <th>MaxQuantity</th>
                   <th>Quantity</th>
                   <th>Stock Percentage</th>
                   <th>Action</th>
