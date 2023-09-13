@@ -85,7 +85,7 @@ const TransactionQueryForm = ({ onSearch ,setFlag}) => {
           </select>
         </div>
         <div className="form-group">
-          <label>Venture Name:</label>
+          <label>Vendor/Supplier Name:</label>
           <input type="text" value={ventureName} onChange={(e) => setVentureName(e.target.value)} />
         </div>
       <div className="form-group">
