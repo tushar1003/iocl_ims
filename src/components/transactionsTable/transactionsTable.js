@@ -98,7 +98,7 @@ function TransactionsTable() {
         'Transaction Type': transaction.transactionType,
         'Quantity Incoming/Outgoing': transaction.quantity,
         Invoice: transaction.invoice,
-        'Venture Name': transaction.ventureName,
+        'Vendor/Supplier Name': transaction.ventureName,
       };
     });
 
