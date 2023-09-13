@@ -147,7 +147,7 @@ function TransactionsTable() {
     { name: 'Transaction Type', selector: (row) => row.transactionType },
     { name: 'Quantity Incoming/Outgoing', selector: (row) => row.quantity },
     { name: 'Invoice', selector: (row) => row.invoice },
-    { name: 'Venture Name', selector: (row) => row.ventureName },
+    { name: 'Vendor/Supplier Name', selector: (row) => row.ventureName },
   ];
 
   const filteredData = currentItems.filter((item) =>
