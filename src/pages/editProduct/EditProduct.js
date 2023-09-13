@@ -237,7 +237,7 @@ const EditProduct = () => {
                     fontWeight: 'bold',
                   }}
                 >
-                  Venture Name:
+                  Vendor/Supplier Name:
                   <input
                     type='text'
                     value={ventureName}
